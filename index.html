@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Handwriting App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>AI Handwriting App</h1>
+    <textarea id="input" placeholder="Write or draw here..."></textarea>
+    <div class="button-group">
+      <button onclick="summarize()">Summarize</button>
+      <button onclick="generateNotes()">Generate Notes</button>
+      <button onclick="explain()">Explain</button>
+      <button onclick="translate()">Translate</button>
+      <button onclick="askAnything()">Ask</button>
+    </div>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
